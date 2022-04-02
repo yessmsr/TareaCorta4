@@ -43,14 +43,6 @@ public class Botones implements ActionListener {
         ventana.add(panelBotones, BorderLayout.CENTER);
 
     }
-    public void msjError(){
-        JDialog msj = new JDialog();
-        msj.setVisible(true); 
-        msj.setSize(300, 100); 
-        JLabel lab = new JLabel("Error.");
-        msj.add(lab);
-        msj.setDefaultCloseOperation(JDialog.EXIT_ON_CLOSE);
-    }
     @Override
     public void actionPerformed(ActionEvent e){
         
